@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Đây là title</title>
+</head>
+<body>
+<h2>Chọn gia vị sandwich</h2>
+<form action="/save">
+    <h4>Vui lòng chọn gia vị:</h4>
+    <label>
+        <input type="checkbox" name="condiment" value="Tomato">
+        Tomato
+    </label>
+    <label>
+        <input type="checkbox" name="condiment" value="Lettuce">
+        Lettuce
+    </label>
+    <label>
+        <input type="checkbox" name="condiment" value="Mustard">
+        Mustard
+    </label>
+    <label>
+        <input type="checkbox" name="condiment" value="Sprouts">
+        Sprouts
+    </label>
+    <button>Lưu</button>
+</form>
+</body>
+</html>
